@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hat.javaadvance.mybatis.mapper.QueryMapper">
+    <!--开启二级缓存-->
+<!--    <cache/>-->
+    <!--缓存引用UserWithPermMapper的namespace。
+    这样当前映射文件和UserWithPermMapper映射文件都是用同一个缓存-->
+<!--    <cache-ref namespace="com.hat.mybatis.mapper.UserWithPermMapper"/>-->
+    <resultMap id="MyBatisDao" type="com.hat.javaadvance.mybatis.dao.MyBatisDao">
+    </resultMap>
+    <select id="queryAge" resultMap="MyBatisDao">
+        select * from mybatis where age = #{age}
+    </select>
+</mapper>

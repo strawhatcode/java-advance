@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.hat.javaadvance.design_pattern.factory.simple_factory</OriginalElement>
+  <nodes>
+    <node x="162.53125" y="270.0">com.hat.javaadvance.design_pattern.factory.simple_factory.PhoneFactory</node>
+    <node x="224.25" y="381.0">com.hat.javaadvance.design_pattern.factory.simple_factory.Main</node>
+    <node x="0.0" y="135.0">com.hat.javaadvance.design_pattern.factory.simple_factory.HuaweiPhone</node>
+    <node x="184.0" y="135.0">com.hat.javaadvance.design_pattern.factory.simple_factory.SonyPhone</node>
+    <node x="219.28125" y="0.0">com.hat.javaadvance.design_pattern.factory.simple_factory.Phone</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.hat.javaadvance.design_pattern.factory.simple_factory.HuaweiPhone" target="com.hat.javaadvance.design_pattern.factory.simple_factory.Phone">
+      <point x="0.0" y="-42.5" />
+      <point x="82.0" y="115.0" />
+      <point x="237.28125" y="115.0" />
+      <point x="-54.0" y="42.5" />
+    </edge>
+    <edge source="com.hat.javaadvance.design_pattern.factory.simple_factory.SonyPhone" target="com.hat.javaadvance.design_pattern.factory.simple_factory.Phone">
+      <point x="0.0" y="-42.5" />
+      <point x="256.0" y="115.0" />
+      <point x="273.28125" y="115.0" />
+      <point x="-18.0" y="42.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="218.0" y="223.0" />
+  <SelectedNodes>
+    <node>com.hat.javaadvance.design_pattern.factory.simple_factory.PhoneFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

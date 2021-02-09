@@ -1,0 +1,19 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password:
+  datasource:
+    url: "jdbc:mysql://127.0.0.1:3306/distributed?characterEncoding=utf-8&serverTimezone=UTC"
+    username: root
+    password: caomao
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8080
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+machine:
+  name: aaa
